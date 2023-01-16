@@ -1,0 +1,21 @@
+body {
+    font-family: "El Messiri", sans-serif;
+    background-color: #CFFDE1;
+    font-weight: 400;
+    color:#3D5656;
+  }
+  
+  .h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 500%;
+    color: #3D5656;
+    line-height: 1.2;
+    margin-top: 4rem;
+  }
+
+  h1 span{
+    padding: 5px 15px;
+    background-color:#68B984;
+    color: #FED049;
+  }
