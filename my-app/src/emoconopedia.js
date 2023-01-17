@@ -21,3 +21,4 @@ const emoconopedia=[
         meaning:"A yellow face with its hands over its eyes and raised eyebrows. One wide eye is peeking through the fingers.Can be used to express the duality of wanting to look away from something because it's frightening, disgusting, or embarrassing, but not being able to."
     }
 ]
+export default emoconopedia;
