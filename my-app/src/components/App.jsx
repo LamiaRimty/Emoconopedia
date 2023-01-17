@@ -1,5 +1,6 @@
 import React from "react";
 import Entry from "./Entry";
+import emoconopedia from "../emoconopedia";
 
 // function createEntry(emocon){
 //     return(
@@ -22,17 +23,23 @@ function App() {
 <div className="row">
 
      <dl className="dictionary">
-        <Entry
-                emoji="😜"
-                name="Winking Face with Tongue"
-                meaning="A yellow face sticking out its tongue and making a zany wink, usually shown with its right eye closed and left wide open. Often conveys a sense of fun, excitement, wackiness, buffoonery, or joking.Used in sharing funny jokes between friends."
+        <Entry  
+                
+                emoji={emoconopedia[0].emoji}
+                name={emoconopedia[0].name}
+                meaning={emoconopedia[0].meaning}
         />
-        {/* <Entry
-                emoji="🫠"
-                name="Melting Face"
-                meaning="A yellow smiley face melting into a puddle.The eyes and mouth slip down the face, yet still maintain a distorted smile. This quality lends this emoji to sarcasm.Can be used literally to talk about extreme heat. Can also be used metaphorically to talk about embarrassment, shame, a slowly sinking sense of dread, or feeling overwhelmed in some way."
+        <Entry
+                emoji={emoconopedia[1].emoji}
+                name={emoconopedia[1].name}
+                meaning={emoconopedia[1].meaning}
+        />
 
-        /> */}
+<Entry
+                emoji={emoconopedia[2].emoji}
+                name={emoconopedia[2].name}
+                meaning={emoconopedia[2].meaning}
+        />
         
      </dl>
      </div>
