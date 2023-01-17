@@ -27,14 +27,53 @@ body {
     text-align: center;
   }
 
-  .term{
-    background-color: aliceblue;
-    margin: 50px 10px; 
-    padding:  25px 15px;
-    height: 200px;
-    width: 500px;
-    box-shadow: 0 2px 5px #ccc;
-    text-align: left;
-    /*text-align:middle;*/
-    /* display: inline-block;   */
+  .dictionary{
+        display:flex; 
+        /* make in a row line all entries */
+        flex-wrap: wrap;
+        /* 3,2,1 ta kore resize kore show korbe */
+        justify-content:space-between ;    
+        /* space chole aslo card er moddhe  */
+        margin: 4rem auto;
+        max-width: 90%;
+        
   }
+
+  .dictionary> .term{
+    background-color: aliceblue;
+    margin-bottom: 3rem;
+    transition: all 100ms ease-in-out;
+    /* margin: 50px 10px; */
+    padding: 2rem;
+    max-width:20rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+    /*text-align:middle;*/
+  
+  }
+
+  .dictionary> .term> dt{
+    margin-bottom: 1rem;
+    /* name & meaning between place */
+  }
+
+  dt{
+    color: #26aa68;
+  }
+
+  dt span{
+     font-size: 200%;
+     font-weight: 900;
+  }
+
+  dd{
+    font-size: 100%;
+    margin-left: 0;
+  }
+
+  dd dt{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
