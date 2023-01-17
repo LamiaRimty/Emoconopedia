@@ -1,5 +1,4 @@
 import React from "react";
-// import emoconopedia from "../emoconopedia";
 import Entry from "./Entry";
 
 // function createEntry(emocon){
@@ -28,13 +27,13 @@ function App() {
                 name="Winking Face with Tongue"
                 meaning="A yellow face sticking out its tongue and making a zany wink, usually shown with its right eye closed and left wide open. Often conveys a sense of fun, excitement, wackiness, buffoonery, or joking.Used in sharing funny jokes between friends."
         />
-        <Entry
+        {/* <Entry
                 emoji="🫠"
                 name="Melting Face"
                 meaning="A yellow smiley face melting into a puddle.The eyes and mouth slip down the face, yet still maintain a distorted smile. This quality lends this emoji to sarcasm.Can be used literally to talk about extreme heat. Can also be used metaphorically to talk about embarrassment, shame, a slowly sinking sense of dread, or feeling overwhelmed in some way."
 
-        />
-        <Entry/>
+        /> */}
+        
      </dl>
      </div>
     </div>
