@@ -7,12 +7,11 @@ body {
     color:#3D5656;
     line-height: 1.666;
     text-align: center;
-    /* text-align: center; */
+    
   }
   
   .h1 {
     font-weight: 900;
-    text-align: center;
     font-size: 500%;
     color: #3D5656;
     line-height: 1.2;
@@ -24,7 +23,7 @@ body {
     padding: 5px 15px;
     background-color:#68B984;
     color: #FED049;
-    text-align: center;
+   
   }
 
   .dictionary{
@@ -53,6 +52,12 @@ body {
   
   }
 
+.emoji{
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
   .dictionary> .term> dt{
     margin-bottom: 1rem;
     /* name & meaning between place */
@@ -68,7 +73,7 @@ body {
   }
 
   dd{
-    font-size: 100%;
+    font-size: 92.5%;
     margin-left: 0;
   }
 
